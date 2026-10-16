@@ -1,6 +1,8 @@
 'use strict';
 // Итоговый js/script.js после темы 7: форма заявок + CTA из темы 6.
 // Google Tag устанавливается отдельно в head каждой HTML-страницы.
+// ЗАМЕНИТЕ этим блоком старый submit-обработчик из темы 6.
+// Обработчики CTA и остальных событий оставьте. Не подключайте блок дважды.
 (() => {
   const leadForm = document.querySelector('#lead-form');
   if (!leadForm) return;
